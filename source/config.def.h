@@ -11,7 +11,6 @@ static const char *fonts[] = {" JetBrainsMono Nerd Font:regular:pixelsize=15" };
 /* -p  option; prompt to the left of input field */
 static const char *prompt = NULL;
 static const char *colors[SchemeLast][2] = {
-													/*     fg         bg       */
 	[SchemeNorm]					= 	{ "#D9E0EE", 	"#1A1826" },
 	[SchemeSel] 					=  	{ "#1A1826", 	"#96CDFB" },
 	[SchemeOut] 					=  	{ "#D9E0EE", 	"#89DCEB" },

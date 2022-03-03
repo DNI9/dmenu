@@ -1,5 +1,5 @@
 pkgname=dni9-dmenu
-pkgver=1.r1.5431797
+pkgver=1.r1.2d48a10
 pkgrel=1
 pkgdesc="My bloated build of dmenu"
 url="https://github.com/DNI9/dmenu"
