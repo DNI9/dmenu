@@ -6,8 +6,8 @@ static int topbar = 1;
 
 /*use the -c flag to get it to center*/
 static int centered = 0;
-static int min_width = 750;
-static const char *fonts[] = {" JetBrainsMono Nerd Font:regular:pixelsize=15" };
+static int min_width = 400;
+static const char *fonts[] = {"JetBrainsMono Nerd Font:regular:pixelsize=15" };
 /* -p  option; prompt to the left of input field */
 static const char *prompt = NULL;
 static const char *colors[SchemeLast][2] = {
@@ -19,14 +19,14 @@ static const char *colors[SchemeLast][2] = {
 };
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
-static unsigned int lines      = 0;
+static unsigned int lines = 0;
 
 /*
  * Characters not considered part of a word while deleting words
  * for example: " /?\"&[]"
  */
 static const char worddelimiters[] = " ";
-static unsigned int lineheight = 0;
-static unsigned int min_lineheight = 8;
+static unsigned int lineheight = 30;
+static unsigned int min_lineheight = 10;
 /* Size of the window border */
-static const unsigned int border_width = 3;
+static const unsigned int border_width = 1;
